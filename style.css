@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img/back.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+
+.container {
+    text-align: center;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 20px;
+    color: #fff;
+    transition: height .6s ease;
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+.weather-form {
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.weather-form button img {
+    width: 15px;
+    height: 15px;
+    bottom: 5px;
+}
+
+.weather-form label img {
+    width: 20px;
+    height: 20px;
+    top: 5px;
+}
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#weather-result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(230, 161, 161);
+    padding-top: 30px;
+    
+}
+
+.footer {
+    position: fixed;
+    bottom: 30px;
+    color: #fff;
+}
